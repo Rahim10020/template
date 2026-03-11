@@ -262,3 +262,16 @@
   --size-s99: 396px;
   --size-s100: 400px;
 }
+
+@layer base {
+  :root {
+    font-family:
+      Inter,
+      system-ui,
+      -apple-system,
+      BlinkMacSystemFont;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
